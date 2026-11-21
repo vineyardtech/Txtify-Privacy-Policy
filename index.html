@@ -1,21 +1,232 @@
-MIT License
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy &amp; Data Deletion - Txtify</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292e;
+            background-color: #f6f8fa;
+            margin: 0;
+            padding: 0;
+        }
+        /* Fixed Header Banner */
+        .header-banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(135deg, #1f2428 0%, #24292e 100%);
+            color: #ffffff;
+            padding: 24px 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            z-index: 1000;
+            box-sizing: border-box;
+        }
+        .header-banner h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #58a6ff;
+            letter-spacing: 0.5px;
+        }
+        .header-banner p {
+            margin: 4px 0 0 0;
+            font-size: 13px;
+            color: #8b949e;
+        }
+        /* Main Container placed below the fixed header */
+        .container {
+            max-width: 800px;
+            margin: 110px auto 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            box-sizing: border-box;
+        }
+        h2 {
+            font-size: 18px;
+            margin-top: 30px;
+            color: #24292e;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 6px;
+            scroll-margin-top: 115px;
+        }
+        h3 {
+            font-size: 15px;
+            margin-top: 18px;
+            margin-bottom: 8px;
+            color: #24292e;
+        }
+        p, li {
+            font-size: 14px;
+            color: #444d56;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .date {
+            font-style: italic;
+            color: #586069;
+            margin-bottom: 20px;
+        }
+        .quick-nav {
+            background-color: #f6f8fa;
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
+            padding: 12px 16px;
+            margin-bottom: 24px;
+            font-size: 13px;
+        }
+        .deletion-box {
+            background-color: #f1f8ff;
+            border: 1px solid #c8e1ff;
+            border-left: 4px solid #0366d6;
+            border-radius: 6px;
+            padding: 16px 20px;
+            margin: 16px 0;
+        }
+        .contact-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .contact-list li {
+            margin-bottom: 5px;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background-color: #f6f8fa;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                margin-top: 100px;
+                padding: 20px;
+                border-radius: 0;
+            }
+            .header-banner {
+                padding: 18px 15px;
+            }
+            .header-banner h1 {
+                font-size: 20px;
+            }
+            h2 {
+                scroll-margin-top: 95px;
+            }
+        }
+    </style>
+</head>
+<body>
 
-Copyright (c) 2026 vineyardtech
+    <!-- Non-scrollable Fixed Header Banner -->
+    <div class="header-banner">
+        <h1>Txtify Privacy Policy</h1>
+        <p>Vineyard Tech Developer Documentation</p>
+    </div>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+    <!-- Scrollable Content Body -->
+    <div class="container">
+        <div class="date">Last updated: November 21, 2026</div>
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+        <div class="quick-nav">
+            <strong>Quick Links:</strong>
+            <a href="#information-collected">Information Handled</a> &middot;
+            <a href="#permissions-storage">Permissions &amp; File Access</a> &middot;
+            <a href="#third-party-services">Third-Party Services &amp; Ads</a> &middot;
+            <a href="#data-deletion">Data Retention &amp; Deletion</a> &middot;
+            <a href="#contact-us">Contact Us</a>
+        </div>
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+        <p>Txtify ("we", "our", "us", or "the app"), developed and operated by <strong>Vineyard Tech</strong>, is committed to respecting and protecting your privacy. This Privacy Policy explains how Txtify accesses, processes, stores, and safeguards information when you download, install, and use the Txtify mobile application.</p>
+
+        <h2 id="information-collected">1. Information We Handle and How It Is Processed</h2>
+        <ul>
+            <li><strong>Selected Files, ZIP Archives &amp; Converted Text Files (100% On-Device Processing):</strong> Txtify allows you to select individual files, batch files, folders, or <code>.zip</code> archives on your device and convert their contents into plain <code>.txt</code> files saved in your chosen output directory. All file reading, ZIP extraction, filtering, and <code>.txt</code> creation happens <strong>strictly locally on your device</strong>. Vineyard Tech does not upload, view, collect, or store your source files, ZIP archives, file names, folder structures, or converted text files on any Vineyard Tech server.</li>
+            <li><strong>Local Preferences &amp; Saved Folder Paths:</strong> Txtify stores only your chosen destination save folder URI (<code>saveFolderUri</code>) and optional in-app file browser root folder URI (<code>browserRootFolderUri</code>) locally inside Android <code>SharedPreferences</code> (<code>TxtifyPrefs</code>) so you do not have to re-select your folders every time you open the app.</li>
+            <li><strong>Local Crash Diagnostic Logs:</strong> If Txtify experiences an unexpected crash, an on-device handler records a local crash report in your app's private external files directory (<code>crash_reports/</code>). These reports contain the crash timestamp, stack trace, and basic device hardware/OS details (device brand, model, and Android OS version). Crash reports remain strictly on your device and are not automatically uploaded anywhere.</li>
+            <li><strong>Support Inquiries (In-App Contact Form &amp; Email):</strong> When you voluntarily submit a message through the in-app Contact screen or email us directly, the details you provide—specifically your <strong>name</strong>, <strong>email address</strong>, and <strong>message</strong>—are transmitted via HTTPS to our form processing provider (Formspree) and delivered to our support inbox solely so we can respond to your inquiry or bug report.</li>
+        </ul>
+
+        <h2 id="permissions-storage">2. Device Permissions &amp; File Access</h2>
+        <ul>
+            <li><strong>Storage Access Framework (User-Selected Files &amp; Folders):</strong> Txtify uses Android's standard Storage Access Framework (<code>ACTION_OPEN_DOCUMENT</code> and <code>ACTION_OPEN_DOCUMENT_TREE</code>) with persistable read/write URI grants only for the specific files, ZIP archives, and folders you explicitly choose. Txtify does not scan or access unrelated files on your device without your selection.</li>
+            <li><strong>Network &amp; Internet Access:</strong> Used strictly to load Google AdMob advertisements, check for Google Play In-App Updates, and submit support messages if you choose to use the in-app Contact Us form.</li>
+            <li><strong>No Account Required:</strong> Txtify does not require registration, login, or user accounts, and does not access your camera, microphone, contacts, or precise GPS location.</li>
+        </ul>
+
+        <h2 id="third-party-services">3. Third-Party Services &amp; Advertising</h2>
+        <p>Txtify integrates the following third-party services, which may process limited device, diagnostic, or support submission data in accordance with their own privacy policies:</p>
+        <ul>
+            <li><strong>Google AdMob (Google Mobile Ads SDK):</strong> Displays banner advertisements and app open advertisements within Txtify. AdMob may automatically collect and process your Android Advertising ID (AAID), App Set ID, IP address and general approximate location (country/city level), app and ad interactions (such as launches, taps, and ad views), and performance diagnostics (such as launch time and crash/hang metrics).</li>
+            <li><strong>Google Play In-App Updates (Play Core):</strong> Connects with Google Play Services on launch and resume to check whether a required application update is available so you remain on a secure, supported version of Txtify.</li>
+            <li><strong>Formspree (In-App Contact Form Processing):</strong> When you submit the optional Contact Us form inside Txtify, your entered name, email address, and message are securely sent over HTTPS to Formspree (<code>formspree.io</code>) for delivery to Vineyard Tech's support team.</li>
+        </ul>
+        <p>For more information on how Google and Formspree handle data, please review:<br>
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a> &middot;
+        <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Advertising Technologies</a> &middot;
+        <a href="https://formspree.io/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Formspree Privacy Policy</a></p>
+
+        <h2 id="data-deletion">4. Data Retention, User Controls &amp; Deletion Requests</h2>
+        <p>Because Txtify does not create user accounts or maintain a cloud database of your files, most data resides solely on your own device and is under your immediate control.</p>
+
+        <div class="deletion-box">
+            <h3>How to Request Deletion of Support Correspondence</h3>
+            <ol>
+                <li><strong>Submit a Deletion Request by Email:</strong> Send an email to <a href="mailto:contact@vineyardtech.online?subject=Txtify%20Data%20Deletion%20Request">contact@vineyardtech.online</a> or <a href="mailto:josymvine@gmail.com?subject=Txtify%20Data%20Deletion%20Request">josymvine@gmail.com</a> with the subject line <code>Txtify Data Deletion Request</code>.</li>
+                <li><strong>Include Identifying Details:</strong> Send the request from (or mention) the email address you used when contacting us via the in-app Contact Us form or email so we can locate and purge your support messages.</li>
+            </ol>
+            <p style="margin-bottom: 0;"><strong>Processing Timeframe:</strong> All verified deletion requests for support messages and contact form submissions are completed within <strong>30 days</strong> of receipt, with confirmation sent to your email.</p>
+        </div>
+
+        <h3>In-App &amp; Device-Level Controls</h3>
+        <ul>
+            <li><strong>Clear Queued Projects &amp; Folder Permissions:</strong> You can clear queued projects anytime inside Txtify via the top menu ("Clear All"), switch your save or browser folders at any time, or clear app storage in Android Settings to wipe <code>TxtifyPrefs</code> and revoke persisted folder URI grants.</li>
+            <li><strong>Delete Local Crash Reports or Uninstall App:</strong> Uninstalling Txtify immediately deletes <code>TxtifyPrefs</code> and the app's private <code>crash_reports/</code> folder. <em>(Note: <code>.txt</code> files already saved into your chosen device folder remain in your storage until you delete them using your file manager.)</em></li>
+            <li><strong>Third-Party Ad Telemetry Controls:</strong> Advertising identifiers processed by Google AdMob are governed by Google's retention policies. You can reset or delete your Android Advertising ID at any time via Android <code>Settings &rarr; Google &rarr; Ads</code>.</li>
+        </ul>
+
+        <h3>Summary of Data Retained</h3>
+        <ul>
+            <li><strong>Files &amp; ZIP Contents:</strong> Never collected or retained by Vineyard Tech (processed 100% locally on your device).</li>
+            <li><strong>Support Inquiries:</strong> Emails and Contact Us form submissions are retained only as long as necessary to resolve your support request (up to 90 days if inactive), or permanently deleted within <strong>30 days</strong> upon request.</li>
+        </ul>
+
+        <h2 id="security">5. Security of Your Information</h2>
+        <p>Txtify performs all file reading, ZIP inspection, and text conversion locally on your device. All external network communications—including Google AdMob, Google Play In-App Updates, and Contact Us form submissions—are encrypted in transit using HTTPS/TLS. We do not sell, rent, or trade your personal information or files to any third party.</p>
+
+        <h2 id="childrens-privacy">6. Children's Privacy</h2>
+        <p>Txtify is a general file-conversion utility and is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has submitted personal contact details through our support form, please contact us so we can promptly delete that information.</p>
+
+        <h2 id="updates">7. Updates to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time to reflect app updates, SDK changes, or legal requirements. Any updates will be published directly to this page with a revised "Last updated" date.</p>
+
+        <h2 id="contact-us">8. Contact Us</h2>
+        <p>If you have any questions, concerns, or data deletion requests regarding this Privacy Policy or Txtify, please contact us at:</p>
+        <ul class="contact-list">
+            <li><strong>App Name:</strong> Txtify</li>
+            <li><strong>Organization:</strong> Vineyard Tech</li>
+            <li><strong>Business &amp; Privacy Contact:</strong> <a href="mailto:contact@vineyardtech.online">contact@vineyardtech.online</a></li>
+            <li><strong>Developer Email:</strong> <a href="mailto:josymvine@gmail.com">josymvine@gmail.com</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
